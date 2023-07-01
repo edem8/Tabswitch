@@ -2,7 +2,7 @@
 
 body {
   margin: 0px;
-  padding: 50px;
+  padding: 0px;
   font-family: "Assistant", sans-serif;
   font-size: 15px;
   letter-spacing: 8px;
@@ -14,6 +14,7 @@ header nav {
   gap: 17px;
   justify-content: end;
   font-size: 16px;
+  padding: 30px;
 }
 
 header nav a {
@@ -23,7 +24,7 @@ header nav a {
 }
 
 header nav a.active {
-  background-color: #E0D1C6;
+  background-color: #e0d1c6;
   color: #fff;
   border-radius: 4px;
 }
@@ -33,8 +34,15 @@ header h2 {
 }
 
 /* Home Screen Styles */
-.HeroText {
-  margin-top: 10%;
+
+.onboarding :first-child{
+  margin-top: 10% ;
+}
+
+.onboarding h2 {
+  font-weight: 350;
+  font-size: x-large;
+
 }
 
 /* Journey Screen Styles */
