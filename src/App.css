@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@350&display=swap");
+
+body {
+  margin: 0px;
+  padding: 50px;
+  font-family: "Assistant", sans-serif;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+
+/*Layout Page*/
+
+header nav{
+  display: flex;
+  gap:17px;
+  justify-content: end;
+  font-size: 15px;
+}
+
+header nav a{
+  text-decoration: none;
+  padding: 6px;
+  letter-spacing: 5px;
+}
+
+
+header h2{
+  margin-right: auto;
+}
+
+.HeroText{
+  margin-top: 10%;
+}
