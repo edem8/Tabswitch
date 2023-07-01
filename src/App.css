@@ -9,7 +9,6 @@ body {
   justify-content: center;
 }
 
-
 header nav {
   display: flex;
   gap: 17px;
@@ -53,4 +52,28 @@ header h2 {
   display: grid;
   font-size: large;
   font-weight: 350;
+}
+
+/* Candle Care Styles */
+.care h2 {
+  display: block;
+  margin-top: 7%;
+  margin-bottom: 3%;
+  margin-left: 10%;
+  font-weight: 350;
+}
+
+.care li {
+  letter-spacing: 4px;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  font-size: large;
+  font-weight: 350;
+  line-height: 20px;
+  text-align: left;
+  list-style-type: circle;
+}
+
+.care li p {
+  margin-top: 1.5%;
 }
