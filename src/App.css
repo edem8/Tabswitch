@@ -9,18 +9,27 @@ body {
   justify-content: center;
 }
 
+main {
+  border: #e0d1c6;
+  margin-top: 0;
+}
+
 header nav {
   display: flex;
   gap: 17px;
-  justify-content: end;
-  font-size: 16px;
+  flex: end;
   padding: 30px;
+  background-color: whitesmoke;
 }
 
 header nav a {
   text-decoration: none;
   padding: 6px;
   letter-spacing: 5px;
+  background: none;
+  color: #C09B81;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 header nav a.active {
@@ -30,25 +39,33 @@ header nav a.active {
 }
 
 header h2 {
+  background: none;
   margin-right: auto;
+  color: #C09B81;
+  font-weight: bolder;
+  font-size: large;
 }
 
 /* Home Screen Styles */
-
-.onboarding :first-child{
-  margin-top: 10% ;
+.onboarding {
+  padding: 19%;
 }
 
 .onboarding h2 {
   font-weight: 350;
   font-size: x-large;
-
+  background: none;
 }
 
 /* Journey Screen Styles */
+.journey {
+  background: none;
+  padding-top: 2%;
+  padding-bottom:6% ;
+}
 .journey h2 {
   display: grid;
-  margin-top: 6.5%;
+  margin-top: 2%;
   margin-bottom: 3%;
   font-weight: 350;
 }
@@ -60,28 +77,14 @@ header h2 {
   display: grid;
   font-size: large;
   font-weight: 350;
+  background: none;
 }
 
 /* Candle Care Styles */
-.care h2 {
-  display: block;
-  margin-top: 7%;
-  margin-bottom: 3%;
-  margin-left: 10%;
-  font-weight: 350;
+.care {
+  background: none;
+  padding: 3%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.care li {
-  letter-spacing: 4px;
-  margin-left: 10%;
-  margin-bottom: 3%;
-  font-size: large;
-  font-weight: 350;
-  line-height: 20px;
-  text-align: left;
-  list-style-type: circle;
-}
-
-.care li p {
-  margin-top: 1.5%;
-}

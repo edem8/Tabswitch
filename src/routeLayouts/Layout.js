@@ -16,7 +16,7 @@ function Layout() {
         </header>
       </div>
 
-      <main>
+      <main className="cool">
         <Outlet />
       </main>
     </div>

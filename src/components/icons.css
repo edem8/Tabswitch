@@ -1,0 +1,20 @@
+.icon {
+  letter-spacing: 1px;
+  padding: 1%;
+}
+
+.icon :first-child {
+  padding-bottom: 1%;
+}
+
+.icon solid {
+  font-weight: 600;
+  font-size: medium;
+  color: #C09B81;
+}
+
+.icon p {
+  display: grid;
+  font-size: medium;
+}
+

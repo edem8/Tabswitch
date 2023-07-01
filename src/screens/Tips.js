@@ -1,35 +1,35 @@
 import React from "react";
+import TipCards from "../components/TipCards";
+import { AiFillAlert } from "react-icons/ai";
+import { AiFillFormatPainter } from "react-icons/ai";
+import { AiFillEnvironment } from "react-icons/ai";
 
 function Tips() {
   return (
     <div className="care">
-      <h2>TIPS FOR LASTING AND HEALTHY SCENTS</h2>
+      <TipCards
+        icon={<AiFillAlert size={25} />}
+        text1={"The first Burn"}
+        text2={"Burn for 4 hours"}
+        text3={"for a clean and"}
+        text4={"even burn"}
+      />
 
-      <ul>
-        <li>
-          The first time you burn your candle, allow the wax to melt all the way
-          to the edge
-          <p>of the vessel for the best diffusion and burning.</p>
-        </li>
-        <li>
-          Although our candles burn evenly from top to bottom, you should not
-          burn them
-          <p>for more than four hours at a time.</p>
-        </li>
-        <li>
-          When lighting a candle for the first time, burn it long enough to make
-          the top layer completely
-          <p>
-            liquid. Because of this, the candle will burn evenly
-            throughout its lifetime.
-          </p>
-        </li>
-        <li>
-          To re-center or straighten the wick, use a sturdy object. Pour the
-          liquid wax out 
-          <p>carefully if the flame is too small.</p>
-        </li>
-      </ul>
+      <TipCards
+        icon={<AiFillFormatPainter size={25} />}
+        text1={"Trim the Wick"}
+        text2={"Trim For about 4mm"}
+        text3={" to 6mm before "}
+        text4={" each burn"}
+      />
+
+      <TipCards
+        icon={<AiFillEnvironment size={25} />}
+        text1={"Trim the Wick"}
+        text2={"To about 4 to"}
+        text3={"6mm before each"}
+        text4={"burn"}
+      />
     </div>
   );
 }
