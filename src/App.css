@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@350&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@250;350;400&display=swap");
 
 body {
   margin: 0px;
@@ -6,28 +6,51 @@ body {
   font-family: "Assistant", sans-serif;
   font-size: 15px;
   letter-spacing: 8px;
+  justify-content: center;
 }
 
-/*Layout Page*/
 
-header nav{
+header nav {
   display: flex;
-  gap:17px;
+  gap: 17px;
   justify-content: end;
-  font-size: 15px;
+  font-size: 16px;
 }
 
-header nav a{
+header nav a {
   text-decoration: none;
   padding: 6px;
   letter-spacing: 5px;
 }
 
+header nav a.active {
+  background-color: #E0D1C6;
+  color: #fff;
+  border-radius: 4px;
+}
 
-header h2{
+header h2 {
   margin-right: auto;
 }
 
-.HeroText{
+/* Home Screen Styles */
+.HeroText {
   margin-top: 10%;
+}
+
+/* Journey Screen Styles */
+.journey h2 {
+  display: grid;
+  margin-top: 6.5%;
+  margin-bottom: 3%;
+  font-weight: 350;
+}
+
+.journey p {
+  letter-spacing: 4px;
+  margin-top: 2.5%;
+  line-height: 20px;
+  display: grid;
+  font-size: large;
+  font-weight: 350;
 }

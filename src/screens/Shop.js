@@ -1,7 +1,7 @@
 import React from "react";
 
 function Shop() {
-  return <div></div>;
+  return <div>shop</div>;
 }
 
 export default Shop;
