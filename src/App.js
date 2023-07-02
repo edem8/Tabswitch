@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import {
   Route,
   RouterProvider,
@@ -6,23 +7,15 @@ import {
   createRoutesFromElements,
 } from "react-router-dom";
 
-//style imports
-import "./App.css";
-
-//component imports
-import Layout from "./routeLayouts/Layout";
-import Home from "./screens/Home";
-import Shop from "./screens/Shop";
-import Tips from "./screens/Tips";
-import Journey from "./screens/Journey";
+import Layout from "./Layout/Layout";
+import Request from "./screen/Request";
+import Home from "./screen/Home";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path="shop" element={<Shop />} />
-      <Route path="care" element={<Tips />} />
-      <Route path="journey" element={<Journey />} />
+      <Route path="request" element={<Request />} />
     </Route>
   )
 );

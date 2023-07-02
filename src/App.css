@@ -1,90 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@250;350;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Wendy+One&display=swap");
 
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Assistant", sans-serif;
-  font-size: 15px;
-  letter-spacing: 8px;
-  justify-content: center;
-}
-
-main {
-  border: #e0d1c6;
-  margin-top: 0;
-}
-
-header nav {
-  display: flex;
-  gap: 17px;
-  flex: end;
-  padding: 30px;
-  background-color: whitesmoke;
-}
-
-header nav a {
-  text-decoration: none;
-  padding: 6px;
-  letter-spacing: 5px;
   background: none;
-  color: #C09B81;
-  font-size: 16px;
-  font-weight: 700;
+  padding: 20px;
 }
 
-header nav a.active {
-  background-color: #e0d1c6;
+.layout_container {
+  background-color: #818589;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.layout_container .child1 {
   color: #fff;
+  font-family: "Wendy One", sans-serif;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.layout_container .child2  {
+  color: #fff;
+  font-family: "Wendy One", sans-serif;
+  margin-left: 49%;
+  margin-right: 49%;
+}
+
+
+.layout_container img {
+  width: 120px;
+  height: 120px;
+  margin-left: 48%;
+}
+
+.layout_container a {
+  text-decoration: none;
+}
+
+.layout_container .child2 a {
+  color: #fff;
+  padding: 6px;
   border-radius: 4px;
-}
+  border: 2px solid #fff;
+  font-weight: lighter;
+  letter-spacing: 3px;
 
-header h2 {
-  background: none;
-  margin-right: auto;
-  color: #C09B81;
-  font-weight: bolder;
-  font-size: large;
 }
-
-/* Home Screen Styles */
-.onboarding {
-  padding: 19%;
-}
-
-.onboarding h2 {
-  font-weight: 350;
-  font-size: x-large;
-  background: none;
-}
-
-/* Journey Screen Styles */
-.journey {
-  background: none;
-  padding-top: 2%;
-  padding-bottom:6% ;
-}
-.journey h2 {
-  display: grid;
-  margin-top: 2%;
-  margin-bottom: 3%;
-  font-weight: 350;
-}
-
-.journey p {
-  letter-spacing: 4px;
-  margin-top: 2.5%;
-  line-height: 20px;
-  display: grid;
-  font-size: large;
-  font-weight: 350;
-  background: none;
-}
-
-/* Candle Care Styles */
-.care {
-  background: none;
-  padding: 3%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
