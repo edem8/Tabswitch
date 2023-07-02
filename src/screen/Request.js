@@ -1,7 +1,7 @@
 import React from "react";
 
 function Request() {
-  return <div>Request</div>;
+  return <div className="home_container"><h1>Request</h1></div>;
 }
 
 export default Request;

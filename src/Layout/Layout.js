@@ -17,7 +17,7 @@ function Layout() {
         <img src={gif} alt="" />
         
         <div className="child2">
-          <NavLink to="request">REQUEST</NavLink>
+          <NavLink to="request" >REQUEST</NavLink>
         </div>
       </div>
 
