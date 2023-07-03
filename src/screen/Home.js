@@ -3,11 +3,17 @@ import "../App.css";
 
 function Home() {
   return (
-    <div className="home_container">
-      <div className="child1">
-        <h1>STATISTICS</h1>
+    <>
+      <div className="home_container">
+        <div className="child1">
+          <p>DID YOU KNOW? </p>
+        </div>
       </div>
-    </div>
+
+      <div>
+       
+      </div>
+    </>
   );
 }
 

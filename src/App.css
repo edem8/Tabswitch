@@ -17,7 +17,7 @@ body {
   color: #fff;
   font-family: "Wendy One", sans-serif;
   font-size: xx-large;
-  margin-left: 45%;
+  margin-left: 44%;
   margin-right: 49%;
 }
 
@@ -88,7 +88,6 @@ body {
   background-color: #013220;
 }
 
-
 .home_container {
   padding-left: 10%;
   padding-right: 10%;
@@ -96,10 +95,13 @@ body {
 
 .home_container .child1 {
   display: grid;
+  margin-top: 3%;
 }
 
-.home_container .child1 h1 {
- margin-left: 45%;
- margin-right: 48%;
- color: #013220;
+.home_container p {
+  font-family: "Assistant", sans-serif;
+  font-size: 18px;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  margin-left: 45%;
 }
