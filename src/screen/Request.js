@@ -2,7 +2,7 @@ import React from "react";
 
 function Request() {
   return (
-    <div className="home_container">
+    <div className="request_container">
       <p>Send us a mail of your desired statistics category</p>
       <p className="copyright">@copyright2023</p>
       <div className="child">
