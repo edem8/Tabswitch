@@ -1,28 +1,22 @@
-import React, { useState } from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import React from "react";
+import { Outlet } from "react-router-dom";
 import Logo from "../screen/Logo";
+import TabSwitch from "../component/TabSwitch";
 
 const gif = new URL("../../images/arrow.gif", import.meta.url);
 
 function Layout() {
-    const [text, setText] = useState("REQUEST");
-
-    const handler = () => {
-        setText(" ..HOME.. ")
-    }
   return (
     <>
       <div className="layout_container">
         <div className="child1">
-          <NavLink to="/">
-            <Logo />
-          </NavLink>
+          <Logo />
         </div>
 
         <img src={gif} alt="" />
 
         <div className="child2">
-          <NavLink to="request" onClick={handler}>{text}</NavLink>
+          <TabSwitch />
         </div>
       </div>
 

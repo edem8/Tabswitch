@@ -9,7 +9,7 @@ function Logo() {
         <br />
         STAT
         <br />
-        .CO
+        .GH
       </h1>
       </div>
     </div>
