@@ -6,13 +6,11 @@ function Home() {
     <>
       <div className="home_container">
         <div className="child1">
-          <p>DID YOU KNOW? </p>
+          <p>You're Home Now</p>
         </div>
       </div>
 
-      <div>
-       
-      </div>
+      <div></div>
     </>
   );
 }

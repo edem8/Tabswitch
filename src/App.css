@@ -13,15 +13,9 @@ body {
   padding-bottom: 30px;
 }
 
-.layout_container .child1 {
-  color: #fff;
-  font-family: "Wendy One", sans-serif;
-  font-size: xx-large;
-  margin-left: 44%;
-  margin-right: 49%;
-}
 
 .layout_container .child2 {
+  
   font-family: "Wendy One", sans-serif;
   margin-left: 48%;
   margin-right: 49%;
@@ -51,14 +45,6 @@ body {
   padding-bottom: 5%;
 }
 
-.request_container h1 {
-  font-weight: 500;
-  line-height: 35px;
-  letter-spacing: 2px;
-  font-family: "Black Han Sans", sans-serif;
-  color: black;
-  display: grid;
-}
 
 .request_container p {
   display: grid;
@@ -69,24 +55,11 @@ body {
   margin-left: 37%;
 }
 
-.request_container .copyright {
-  margin-left: 46%;
-}
-
 .request_container .child {
   margin-right: 42%;
   margin-left: 44%;
 }
 
-.request_container h6 {
-  font-size: 17px;
-  letter-spacing: 4px;
-  color: #fff;
-  margin-left: 72px;
-  margin-right: 62px;
-  padding: 10px;
-  background-color: #013220;
-}
 
 .home_container {
   padding-left: 10%;
